@@ -101,7 +101,6 @@ const App = () => {
           <Home />
         </Route>
       </Switch>
-      <button><a href='/orders'>Past orders</a></button>
       {
         orders.map(order => {
           return(

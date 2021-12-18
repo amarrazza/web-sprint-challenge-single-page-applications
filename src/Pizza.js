@@ -21,6 +21,7 @@ export default function Pizza(props){
             <form id='pizza-form' onSubmit={handleSubmit}>
                 <div>
                     <div>{errors.name}</div>
+                    <div>{errors.size}</div>
                 </div>
                 <label>Name
                     <input
